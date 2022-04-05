@@ -59,6 +59,9 @@ nav #menu-nav ul li a{
 #eclosion .logo-expli-eclosion ul li{
     list-style-type: none;
 }
+#eclosion .logo-expli-eclosion ul li a{
+    /* je suis arrivé ici*/
+}
 
 footer{
     background-color: rgb(57,58,59);
