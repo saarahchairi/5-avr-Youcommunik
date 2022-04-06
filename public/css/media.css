@@ -1,19 +1,19 @@
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     body{
         margin: 0;
     }
 
-    #eclosion .logo-expli-eclosion ul li{
+    .logo-expli ul li{
         list-style-type: none;
         padding: 0 35% 0 35%;
     }
-    #evolution .logo-expli-evolution ul li{
+    #evolution .logo-expli ul li{
         list-style-type: none;
         padding: 0 30% 0 30%;
     }
 }
 
-@media screen  and (max-width: 767px){
+@media screen  and (min-width: 426px) and (max-width: 768px){
     body{
         margin: 0;
     }
@@ -29,20 +29,137 @@
         display: none;
     }
     nav #menu-nav ul li a{
+        margin: 5px;
         text-decoration: none;
         color: white;
-        font-size: 7px;
+        font-size: 12px;
     }
 
+    #titre-1{
+        background-color: rgb(51,77,92);
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+    }
+    #titre-1 .packages{
+        display: none;
+    }
+    #titre-1 .titre-pack{
+        padding-left: 0;
+    }
 
+    .corps .intro{ 
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .corps .intro .text{
+        padding: 5%;
+        text-align: justify;
+    }
+
+    .logo-expli ul li{
+        padding: 0 35% 0 35%;
+    }
+    .logo-expli ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    .logo-expli ul li a img{
+        height: 50px;
+    }
+
+    #evolution .logo-expli ul li{
+        padding: 0 35% 0 35%;
+    }
+    
+    footer .menu-footer h1{
+        font-size: 22px;
+    }
+    footer .menu-footer div a img{
+        height: 40px;
+    }
+    footer .cgv p{
+        text-align: end;
+        font-size: 12px;
+    }
+
+}
+
+@media screen  and (max-width: 425px){
+    body{
+        margin: 0;
+    }
+
+    nav{
+        display:flex;
+        flex-direction: column;
+    }
+    nav #menu-nav ul{
+        padding-left: 0;
+    }
+    nav #menu-nav ul li img{
+        display: none;
+    }
+    nav #menu-nav ul li a{
+        margin: 5px;
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    }
+
+    #titre-1{
+        background-color: rgb(51,77,92);
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+    }
+    #titre-1 .packages{
+        display: none;
+    }
+    #titre-1 .titre-pack{
+        padding-left: 0;
+    }
+
+    .corps .intro{ 
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .corps .intro .text{
+        padding: 10%;
+        text-align: justify;
+    }
+
+    .logo-expli ul li{
+        padding: 0 22% 0 22%;
+    }
+    .logo-expli ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    .logo-expli ul li a img{
+        height: 40px;
+    }
 
     footer .menu-footer{
         display: flex;
         flex-direction: column;
         text-align: center;
     }
+    footer .menu-footer h1{
+        font-size: 22px;
+    }
+    footer .menu-footer div a img{
+        height: 40px;
+    }
     footer .cgv p{
         text-align: center;
+        font-size: 12px;
     }
 
 }

@@ -36,9 +36,12 @@ nav #menu-nav ul li a{
     grid-template-columns: 1fr 2fr;
     align-items: center;
 }
-#pack .titre .packages{
+#titre-1 .packages{
     display: grid;
     justify-content: center;
+}
+#titre-1 .titre-pack{
+    padding-left: 10%;
 }
 
 .titre-2{
