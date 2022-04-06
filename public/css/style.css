@@ -5,6 +5,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Barre de navigation*/
 nav{
     background-color: rgb(26, 26, 29);
     display: grid;
@@ -27,7 +28,9 @@ nav #menu-nav ul li a{
     color: white;
     font-size: 10px;
 }
+/*Fin barre de navigation*/
 
+/*Section titre*/
 #titre-1{
     background-color: rgb(51,77,92);
     padding: 5%;
@@ -43,7 +46,9 @@ nav #menu-nav ul li a{
 #titre-1 .titre-pack{
     padding-left: 10%;
 }
+/*Fin section titre*/
 
+/*Section pack (identitique pour les 3 packs sauf pour la partie logo, évolution à un grid et padding différent)*/
 .titre-2{
     display: flex;
     text-align: center;
@@ -100,7 +105,9 @@ nav #menu-nav ul li a{
 #evolution .logo-expli ul li{
     padding: 0 32% 0 32%;
 }
+/*Fin section pack*/
 
+/*Footer*/
 footer{
     background-color: rgb(57,58,59);
     color: white;
@@ -117,3 +124,4 @@ footer .menu-footer div a img{
 footer .cgv p{
     text-align: end;
 }
+/*Fin footer*/
