@@ -41,26 +41,61 @@ nav #menu-nav ul li a{
     justify-content: center;
 }
 
-#eclosion .titre-2{
+.titre-2{
     display: flex;
     text-align: center;
     justify-content: center;
 }
-#eclosion .titre-2 h1{
+.titre-2 h1{
     padding-top: 10px;
     background-color: rgb(51,77,92);
     color: white;
-    width: 20%;
+    width: 250px;
 }
-#eclosion .corps-eclosion{
+.corps .intro{ 
+    padding: 10px 0 10px 0;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
-#eclosion .logo-expli-eclosion ul li{
-    list-style-type: none;
+.corps .intro .logo-pack{
+    display: flex;
+    justify-content: center;
 }
-#eclosion .logo-expli-eclosion ul li a{
-    /* je suis arrivé ici*/
+.corps .intro .text{
+    padding: 0 20% 0 20%;
+}
+.logo-expli{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(234,227,214);
+    display: flex;
+    align-items: center;
+}
+.logo-expli ul{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    text-align: center;
+}
+.logo-expli ul li{
+    list-style-type: none;
+    padding: 0 30% 0 30%;
+}
+.logo-expli ul li a{
+    text-decoration: none;
+    color: black;
+}
+.logo-expli ul li a img{
+    height: 60px;
+}
+
+#evolution .logo-expli ul{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+#evolution .logo-expli ul li{
+    padding: 0 25% 0 25%;
 }
 
 footer{

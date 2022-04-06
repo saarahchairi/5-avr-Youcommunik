@@ -1,0 +1,48 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body{
+        margin: 0;
+    }
+
+    #eclosion .logo-expli-eclosion ul li{
+        list-style-type: none;
+        padding: 0 35% 0 35%;
+    }
+    #evolution .logo-expli-evolution ul li{
+        list-style-type: none;
+        padding: 0 30% 0 30%;
+    }
+}
+
+@media screen  and (max-width: 767px){
+    body{
+        margin: 0;
+    }
+
+    nav{
+        display:flex;
+        flex-direction: column;
+    }
+    nav #menu-nav ul{
+        padding-left: 0;
+    }
+    nav #menu-nav ul li img{
+        display: none;
+    }
+    nav #menu-nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 7px;
+    }
+
+
+
+    footer .menu-footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .cgv p{
+        text-align: center;
+    }
+
+}
